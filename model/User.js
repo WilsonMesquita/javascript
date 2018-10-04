@@ -143,9 +143,7 @@ class User {
         users.forEach((userData, index)=>{
 
             if (this._id == userData._id) {
-
                 users.splice(index, 1);
-
             }
 
         });
